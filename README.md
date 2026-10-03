@@ -1,11 +1,3 @@
----
-title: "2024_DBSeq"
-abstract: "Analysis and figure source code for studying connectome-dependent transcriptomic responses to deep brain stimulation."
-date: 2026-10-03
-keywords: ["deep brain stimulation", "single-nucleus RNA-seq", "connectomics", "epilepsy"]
-status: "active"
----
-
 # 2024_DBSeq
 
 Bioinformatics analysis and statistical figure code for studying brain-wide transcriptomic remodeling following anterior thalamic nucleus deep brain stimulation in a chronic epilepsy model, with comparisons across human drug-resistant epilepsy cohorts.
