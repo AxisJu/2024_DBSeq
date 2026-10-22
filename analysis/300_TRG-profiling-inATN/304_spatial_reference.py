@@ -24,7 +24,7 @@ def compute(inputs):
         filename = base + '/matrix/running_ATN_spatial_reference.h5ad'
         obj.write_h5ad(paths.output(filename))
         if not args.prepare_only:
-            script = Path(__file__).resolve().parent.parent / '100_data-preprocessing' / '108_cell2location.py'
+            script = Path(__file__).resolve().parent.parent / '100_data-preprocessing' / '010_cell2location.py'
             command = [sys.executable, str(script), 'reference', '--data-root', args.data_root, '--output-root', args.output_root, '--input', filename, '--counts-input', filename, '--label', 'celltype', '--name', 'ant-celltype', '--epochs', str(args.epochs), '--accelerator', args.accelerator, '--seed', str(args.seed), '--threads', str(args.threads)]
             if args.force:
                 command.append('--force')
