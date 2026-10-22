@@ -26,7 +26,7 @@ Bioinformatics analysis and statistical figure code for studying brain-wide tran
 └── README.md
 ```
 
-The source collection contains 78 Python modules and 82 R scripts. Figure directories follow the manuscript figure and panel numbering.
+The source collection contains 76 Python modules and 81 R scripts. Figure directories follow the manuscript figure and panel numbering.
 
 ## Input Convention
 
